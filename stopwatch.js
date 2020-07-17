@@ -27,7 +27,7 @@ const start = () => {
 const reset = () => {
   time = 0;
   panel.textContent = '---';
-  active = !active
+  active = false;
   clearInterval(idI);
   btnTime.textContent = "Start";
 }
